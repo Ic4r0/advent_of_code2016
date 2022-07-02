@@ -11,7 +11,7 @@ from collections import Counter
 
 
 # Utils
-def split_room_parts(room: str) -> tuple[list,list, int, str]:
+def split_room_parts(room: str) -> tuple[list, list, int, str]:
     """ Util to split room in the different parts: encrypted name, sector ID and checksum
 
     :param room: string to parse
