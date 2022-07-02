@@ -14,6 +14,7 @@ import sys
 
 from utils.validators import check_valid_arguments
 from days.day_1 import day_1
+from days.day_2 import day_2
 
 
 # module
@@ -26,6 +27,8 @@ def save_xmas(selected_day: int, selected_part: int = None, is_test: bool = Fals
     """
     if selected_day == 1:
         day_1(selected_part, is_test)
+    elif selected_day == 2:
+        day_2(selected_part, is_test)
     elif 0 < selected_day < 26:
         print('No available solution for the selected day')
     else:
