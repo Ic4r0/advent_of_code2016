@@ -14,7 +14,7 @@ from collections import Counter
 def part_1(rep_message_signal: list) -> str:
     """ Code for the 1st part of the 6th day of Advent of Code
 
-    :param rep_message_signal: input string
+    :param rep_message_signal: input list
     :return: message
     """
     message = ''
@@ -31,7 +31,7 @@ def part_1(rep_message_signal: list) -> str:
 def part_2(rep_message_signal: list) -> str:
     """ Code for the 2nd part of the 6th day of Advent of Code
 
-    :param rep_message_signal: input string
+    :param rep_message_signal: input list
     :return: password
     """
     message = ''
